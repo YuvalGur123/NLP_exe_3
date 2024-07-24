@@ -1,0 +1,30 @@
+Tokenization in natural language processing (NLP) is a technique that involves dividing a sentence or phrase into smaller units known as tokens. These tokens can encompass words, dates, punctuation marks, or even fragments of words. The article aims to cover the fundamentals of tokenization, it’s types and use case.
+What is Tokenization in NLP?
+Natural Language Processing (NLP) is a subfield of computer science, artificial intelligence, information engineering, and human-computer interaction. This field focuses on how to program computers to process and analyze large amounts of natural language data. It is difficult to perform as the process of reading and understanding languages is far more complex than it seems at first glance. Tokenization is a foundation step in NLP pipeline that shapes the entire workflow.
+
+Tokenization is the process of dividing a text into smaller units known as tokens. Tokens are typically words or sub-words in the context of natural language processing. Tokenization is a critical step in many NLP tasks, including text processing, language modelling, and machine translation. The process involves splitting a string, or text into a list of tokens. One can think of tokens as parts like a word is a token in a sentence, and a sentence is a token in a paragraph.
+
+Tokenization involves using a tokenizer to segment unstructured data and natural language text into distinct chunks of information, treating them as different elements. The tokens within a document can be used as vector, transforming an unstructured text document into a numerical data structure suitable for machine learning. This rapid conversion enables the immediate utilization of these tokenized elements by a computer to initiate practical actions and responses. Alternatively, they may serve as features within a machine learning pipeline, prompting more sophisticated decision-making processes or behaviors.
+
+Types of Tokenization
+Tokenization can be classified into several types based on how the text is segmented. Here are some types of tokenization:
+
+Word Tokenization:
+Word tokenization divides the text into individual words. Many NLP tasks use this approach, in which words are treated as the basic units of meaning.
+Sentence Tokenization:
+The text is segmented into sentences during sentence tokenization. This is useful for tasks requiring individual sentence analysis or processing.
+Subword Tokenization:
+Subword tokenization entails breaking down words into smaller units, which can be especially useful when dealing with morphologically rich languages or rare words.
+Character Tokenization:
+This process divides the text into individual characters. This can be useful for modelling character-level language.
+Need of Tokenization
+Tokenization is a crucial step in text processing and natural language processing (NLP) for several reasons.
+
+Effective Text Processing: Tokenization reduces the size of raw text so that it can be handled more easily for processing and analysis.
+Feature extraction: Text data can be represented numerically for algorithmic comprehension by using tokens as features in machine learning models.
+Language Modelling: Tokenization in NLP facilitates the creation of organized representations of language, which is useful for tasks like text generation and language modelling.
+Information Retrieval: Tokenization is essential for indexing and searching in systems that store and retrieve information efficiently based on words or phrases.
+Text Analysis: Tokenization is used in many NLP tasks, including sentiment analysis and named entity recognition, to determine the function and context of individual words in a sentence.
+Vocabulary Management: By generating a list of distinct tokens that stand in for words in the dataset, tokenization helps manage a corpus’s vocabulary.
+Task-Specific Adaptation: Tokenization can be customized to meet the needs of particular NLP tasks, meaning that it will work best in applications such as summarization and machine translation.
+Preprocessing Step: This essential preprocessing step transforms unprocessed text into a format appropriate for additional statistical and computational analysis.
